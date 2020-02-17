@@ -11,6 +11,8 @@ class About extends Component {
                 <Helmet>
                     <title>About Page from Helmet</title>
                     <meta name="description" content="This is about page!" />
+                    <meta name="title" content="Helmet Test About | Join your friends in a social platform for friendly competition. Challenge and vote today!" />
+                    <meta property="og:title" content="Helmet Test About | Join your friends in a social platform for friendly competition. Challenge and vote today!" />
                 </Helmet>
                 <Link to="/">Home</Link>
                 <h1>Inside About</h1>
